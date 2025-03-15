@@ -1,0 +1,27 @@
+.right-panel {
+    width: 150px;
+    background: white;
+    padding: 20px;
+    display: none;
+    border-left: 1px solid #ddd;
+  }
+  
+  @media (min-width: 1024px) {
+    .right-panel {
+      display: block;
+    }
+  }
+  
+  .right-panel-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .right-panel-box {
+    background-color: #f3f4f6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
